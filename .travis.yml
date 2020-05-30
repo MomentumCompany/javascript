@@ -40,12 +40,3 @@ matrix:
       env: LINT=true PACKAGE=eslint-config-airbnb
     - node_js: "lts/*"
       env: LINT=true PACKAGE=eslint-config-airbnb-base
-  exclude:
-  allow_failures:
-    - node_js: "11"
-    - node_js: "9"
-    - node_js: "7"
-    - env: PREPUBLISH=true ESLINT=6 PACKAGE=eslint-config-airbnb-base
-    - env: PREPUBLISH=true ESLINT=6 PACKAGE=eslint-config-airbnb
-    - env: PREPUBLISH=true ESLINT=5 PACKAGE=eslint-config-airbnb-base
-    - env: PREPUBLISH=true ESLINT=5 PACKAGE=eslint-config-airbnb
